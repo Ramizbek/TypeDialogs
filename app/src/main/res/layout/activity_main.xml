@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:backgroundTint="#C82D40"
+        android:textAllCaps="false"
+        android:id="@+id/btn_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       Alert Dialog       "
+        app:cornerRadius="4dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:backgroundTint="#C82D40"
+        android:textAllCaps="false"
+        android:id="@+id/btn_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     Custom Dialog     "
+        app:cornerRadius="4dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:backgroundTint="#C82D40"
+        android:textAllCaps="false"
+        android:id="@+id/btn_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Fragment Dialog    "
+        app:cornerRadius="4dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:backgroundTint="#C82D40"
+        android:textAllCaps="false"
+        android:id="@+id/btn_datPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  DatePicker Dialog  "
+        app:cornerRadius="4dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:backgroundTint="#C82D40"
+        android:textAllCaps="false"
+        android:id="@+id/btn_timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  TimePicker Dialog  "
+        app:cornerRadius="4dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:textAllCaps="false"
+        android:id="@+id/btn_bottomSheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BottomSheet Dialog "
+        android:backgroundTint="#C82D40"
+        app:cornerRadius="4dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:textAllCaps="false"
+        android:id="@+id/btn_sncackbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C82D40"
+        android:text="         Snackbar         "
+        app:cornerRadius="4dp" />
+
+</LinearLayout>
